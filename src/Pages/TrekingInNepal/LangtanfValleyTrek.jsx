@@ -1,12 +1,11 @@
 import React from 'react'
 import Nav from '../../Components/Nav'
-// import Header from '../../Components/Header'
 
 const LangtanfValleyTrek = () => {
     return (
         <>
-        <Nav/>
-            {/* <Header /> */}
+            <Nav />
+
             <div className="container w-4/5 m-auto mt-11 text-justify ">
                 <p className='font-thin'>
                     <span className='font-bold'>Langtang Valley Trek </span>
@@ -26,7 +25,7 @@ const LangtanfValleyTrek = () => {
                     <li>Immerse in the unique culture and lifestyle of the Tamang community by visiting typical Tamang villages.</li>
                     <li>Get the chance to climb Chorko-Ri and witness a panoramic view of the Langtang range.</li>
                     <li>Walk through an unimaginable Rhododendron forest, especially during the spring season when the flowers are in full bloom.</li>
-                   
+
 
                 </ol>
 
@@ -60,7 +59,7 @@ const LangtanfValleyTrek = () => {
                             <td>March-May & September-November</td>
 
                         </tr>
-                       
+
                         <tr className='border border-slate-950'>
                             <td className='border border-slate-950'>Transportation</td>
                             <td>Local Bus/Private Jeep</td>

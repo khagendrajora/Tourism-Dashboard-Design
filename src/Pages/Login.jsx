@@ -12,10 +12,10 @@ const Login = () => {
               <div
                 className="block rounded-lg ">
                 <div className="lg:flex lg:flex-wrap">
-                  {/* <!-- Left column container--> */}
+
                   <div className="px-4 md:px-0 lg:w-6/12">
                     <div className="md:mx-6 md:p-12">
-                      {/* <!--Logo--> */}
+
                       <div className="text-center">
                         <img
                           className="mx-auto w-48"
@@ -27,7 +27,7 @@ const Login = () => {
 
                       <form>
                         <p className="mb-4">Please login to your account</p>
-                        {/* <!--Username input--> */}
+
                         <div className="relative space-y-2 mb-4 flex-col flex">
                           <label className="">Username  </label>
 
@@ -36,7 +36,7 @@ const Login = () => {
 
                         </div>
 
-                        {/* <!--Password input--> */}
+
                         <div className="relative space-y-2 flex-col flex mb-4" d>
                           <label
 
@@ -50,17 +50,16 @@ const Login = () => {
 
                         </div>
 
-                        {/* <!--Submit button--> */}
+
                         <div className="mb-12 pb-1 flex space-y-4  flex-col pt-1 text-center">
                           <button className='btn bg-blue-500 rounded-md '>
                             Log in
                           </button>
-                          {/* 
-                          <!--Forgot password link--> */}
+
                           <a href="#!" className='text-green-700'>Forgot password?</a>
                         </div>
 
-                        {/* <!--Register button--> */}
+
                         <div className="flex items-center justify-between pb-6">
                           <p className="mb-0 mr-2">Don't have an account?</p>
                           <button
@@ -75,13 +74,13 @@ const Login = () => {
                     </div>
                   </div>
 
-                  {/* <!-- Right column container with background and description--> */}
+
                   <div
                     className="flex bg-slate-500 items-center rounded-lg lg:w-6/12 lg:rounded-r-lg lg:rounded-bl-none">
-                     
-                    
+
+
                     <div className="px-4 py-6 text-white md:mx-6 md:p-12">
-                    <img src='Images/cd.jpg' alt='wallpaper'/>
+                      <img src='Images/cd.jpg' alt='wallpaper' />
                       <h4 className="mb-6 text-xl font-semibold">
                         We are more than just a company
                       </h4>

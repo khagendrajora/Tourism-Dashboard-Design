@@ -1,12 +1,12 @@
 import React from 'react'
 import Nav from '../../Components/Nav'
-// import Header from '../../Components/Header'
+
 
 const AnnapurnaBaseCampTreck = () => {
     return (
         <>
-       <Nav/>
-            {/* <Header /> */}
+            <Nav />
+
             <div className="container w-4/5 m-auto mt-11 text-justify ">
                 <p className='font-thin'>
                     <span className='font-bold'>Annapurna Base Camp Trek </span>also known as ABC Trek is undoubtedly one of the best high-altitude treks in Nepal. The spectacular range of Annapurna mountain lies in the Annapurna region, which is the western region of Nepal.
