@@ -1,12 +1,11 @@
 import React from 'react'
-import Header from '../../Components/Header'
 import Nav from '../../Components/Nav'
 
 const ParaglidingInPokhara = () => {
     return (
         <>
-        <Nav/>
-            {/* <Header /> */}
+            <Nav />
+
             <div className="container w-4/5 m-auto mt-11 text-justify ">
                 <p className='font-thin mb-5'>
                     Are you thinking about doing <span className=' font-bold'>Paragliding in Pokhara?</span> Paragliding is one of the most preferred adventure sports in Nepal. Pokhara is the place where you can start your first paragliding experience.
